@@ -1,0 +1,118 @@
+.iframe {
+    background-color: black;
+    width: 600px;
+    height: 800px;
+    resize: horizontal;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+.create {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    z-index: 20000;
+  
+
+}
+
+
+.addone {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.show {
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+}
+
+.max {
+    position: absolute;
+    top: 250px;
+    right: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.box {
+    width: 200px;
+    min-width: 200px;
+    height: 60px;
+    background-color: aquamarine;
+    border-radius: 10px;
+ 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
+.del {
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height:30px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.view {
+    background-color: darkslateblue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.divinside {
+    display: flex;
+    gap: 5px;
+}
+
+.orga {
+display: flex;
+gap: 10px;
+width: 700px;
+overflow-x: scroll;
+
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
