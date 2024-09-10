@@ -109,10 +109,16 @@ overflow-x: scroll;
 }
 
 .container {
-    width: 700px;
+    width: 90%;
+    max-width: 700px; /* Limita a largura máxima do container */
     margin: 0 auto;
-position: relative;
-display: flex;
-flex-direction: column;
-justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff; /* Apenas para visualização */
+    border-radius: 8px; /* Opcional, para estilizar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
